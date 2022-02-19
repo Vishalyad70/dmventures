@@ -1,0 +1,113 @@
+@media only screen and (max-width:1920px) {
+    .container {
+        max-width: 1580px;
+        height: 100%;
+    }
+    .row {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    header .navbar-nav .nav-item .nav-link,
+    header .grey_btn {
+        width: 100%;
+        max-width: 180px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .hero_sec {
+        padding-top: 14%;
+    }
+    .hero_sec .hero_intro {
+        text-align: center;
+    }
+    .tools_sec .left_box {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .tools_sec .right_box .red_box {
+        justify-content: center;
+    }
+    .popular .count_box {
+        max-width: 700px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .popular .kl_rom {
+        text-align: center;
+    }
+    .popular .kl_rom .white_box {
+        justify-content: center;
+    }
+    .popular .kl_rom .white_box .details_box {
+        text-align: initial;
+    }
+    .reviews .tilte_bean,
+    .reviews .slider .group_one {
+        display: block;
+        text-align: center;
+    }
+    .reviews .tilte_bean .furious_box {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .reviews .slider .group_one .review_box {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .reviews .slider .review_box .open_p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .hero_sec {
+        padding-top: 20%;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .hero_sec {
+        padding-top: 22%;
+        padding-bottom: 20px;
+    }
+    .popular .kl_rom .white_box {
+        display: block;
+    }
+    .popular .kl_rom .white_box span {
+        margin-bottom: 30px;
+    }
+    .popular .kl_rom .white_box .details_box {
+        padding-left: 0px;
+    }
+    .hero_sec .hero_intro h5 {
+        font-size: 40px;
+    }
+    .title_word {
+        font-size: 30px;
+    }
+    footer .quick {
+        display: block;
+        padding-left: 0px;
+    }
+    .tools_sec,
+    .reviews,
+    .popular {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:475px) {
+    .hero_sec {
+        padding-top: 31%;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .hero_sec {
+        padding-top: 37%;
+    }
+}
