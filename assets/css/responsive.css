@@ -27,6 +27,10 @@
         margin-bottom: 30px;
         text-align: center;
     }
+    .career_tabs .left_box .nav-link,
+    .career_tabs .titl_car {
+        text-align: center;
+    }
     .tools_sec .right_box .red_box {
         justify-content: center;
     }
